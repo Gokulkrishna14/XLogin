@@ -13,7 +13,7 @@ export default function Login(){
             setError(null);
             setIsAuthenticated(true);
         }else{
-            setError("Invalid Username or password");
+            setError("Invalid username or password");
             setIsAuthenticated(false);
         }
     }
